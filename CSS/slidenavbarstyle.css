@@ -1,0 +1,264 @@
+body {
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	font-family: "Jost", sans-serif;
+	background-image: url(../images/Backdrop.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	background: rgb(37, 6, 77);
+	z-index: 100;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	padding: 1rem;
+	max-width: 1300px;
+	height: 3.5rem;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	gap: 1rem;
+	width: 16%;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+nav ul li {
+	width: 100%;
+}
+
+nav ul li button {
+	font-size: 0.9rem;
+	width: 100%;
+	border-radius: 8px;
+	background: rgba(87, 59, 138, 0.6);
+}
+
+nav ul li button:hover {
+	background: rgba(103, 61, 179, 0.8);
+}
+
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 3%;
+}
+
+.main {
+	width: 350px;
+	height: 500px;
+	background: red;
+	overflow: hidden;
+	background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+}
+
+#chk {
+	display: none;
+}
+
+.signup {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+#my-signin2 {
+	display: flex;
+	justify-content: center;
+}
+
+.signup .abcRioButtonBlue {
+	background-color: rgba(87, 59, 138, 0.6);
+	border: 1px transparent;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.signup .abcRioButtonBlue:hover {
+	background-color: rgba(84, 14, 214, 0.2);
+}
+
+label {
+	color: #fff;
+	font-size: 1.9em;
+	justify-content: center;
+	display: flex;
+	margin: 60px auto 35px auto;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.5s ease-in-out;
+}
+
+input {
+	width: 60%;
+	height: 20px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 10px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+
+button {
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: rgb(87, 59, 138);
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 15px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: 0.2s ease-in;
+	cursor: pointer;
+}
+
+#gSignInWrapper {
+	display: flex;
+	justify-content: center;
+}
+
+span.icon {
+	background: url("https://static.vecteezy.com/system/resources/previews/013/948/549/original/google-logo-on-transparent-white-background-free-vector.jpg") transparent 5px 50% no-repeat;
+	display: inline-block;
+	background-size: contain;
+	vertical-align: middle;
+	width: 42px;
+	height: 42px;
+}
+
+span.buttonText {
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 42px;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Roboto", sans-serif;
+}
+
+button:hover {
+	background: rgb(109, 68, 184);
+}
+
+.reset {
+	background: none;
+	display: flex;
+	justify-content: flex-start;
+	font-size: 0.8em;
+	margin-left: 56px;
+	color: #bbc5fb;
+	transition: 0.2s ease-in;
+}
+
+.sign {
+	background: none;
+	display: flex;
+	justify-content: flex-start;
+	font-size: 1em;
+	margin-left: 56px;
+	color: #bbc5fb;
+}
+
+.reset:hover {
+	cursor: pointer;
+	color: #eeeff8;
+}
+
+a {
+	text-decoration: none;
+}
+
+.signbutton {
+	background: none;
+	font-weight: bold;
+	display: flex;
+	justify-content: flex-start;
+	font-size: 0.9em;
+	margin-left: 4px;
+	margin-top: 2px;
+	color: #f0f2ff;
+	transition: 0.2s ease-in;
+}
+
+.signbutton:hover {
+	cursor: pointer;
+	color: #abb5f7;
+}
+
+.login {
+	height: 460px;
+	background: #eee;
+	border-radius: 60% / 10%;
+	transform: translateY(-180px);
+	transition: 0.8s ease-in-out;
+}
+
+.login .reset {
+	color: #573b8a;
+}
+
+.login .reset:hover {
+	color: #7956b9;
+}
+
+.login .sign {
+	background: none;
+	display: flex;
+	justify-content: flex-start;
+	font-size: 1em;
+	margin-left: 56px;
+	color: hsl(261, 40%, 39%);
+}
+
+.login .signbutton {
+	color: hsl(261, 35%, 40%);
+}
+
+.login .signbutton:hover {
+	color: #9574d2;
+}
+
+.login label {
+	color: #573b8a;
+	padding-top: 0.5em;
+	transform: scale(0.6);
+}
+
+#chk:checked~.login {
+	transform: translateY(-500px);
+}
+
+#chk:checked~.login label {
+	transform: scale(1);
+}
+
+#chk:checked~.signup label {
+	transform: scale(0.6);
+}

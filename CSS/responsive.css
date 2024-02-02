@@ -1,0 +1,75 @@
+@media only screen and (max-width: 1140px) {
+    body {
+        background-image: url(../images/1140.jpg);
+    }
+
+    .main {
+        height: 72vh;
+    }
+
+    label {
+        font-size: 1.7em;
+        margin: 45px auto 25px auto;
+    }
+
+    input {
+        height: 15px;
+    }
+
+    .sign {
+        font-size: 0.9em;
+    }
+
+    button {
+        height: 35px;
+    }
+
+    .signup .abcRioButtonBlue {
+        height: 42px;
+    }
+
+    .abcRioButtonBlue .abcRioButtonIcon {
+        padding: 13px;
+    }
+
+    .abcRioButtonContents {
+        line-height: 44px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        background-image: url(../images/1000.jpg);
+    }
+
+    .box {
+        margin-top: 7%;
+    }
+
+    .main {
+        width: 38vw;
+        height: 72vh;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+
+    label {
+        font-size: 1.7em;
+        margin: 50px auto 35px auto;
+    }
+
+    input {
+        height: 18px;
+    }
+
+    button {
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        background-image: url(../images/700.jpg);
+    }
+}
